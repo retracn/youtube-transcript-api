@@ -9,6 +9,7 @@ YouTube Transcript Scraper is an Apify Actor that returns the transcript of any 
 ## Quick facts
 
 - One row per video: transcript text, timestamped segments, language, auto-generated flag, all caption languages, title, channel, views, duration, description and tags.
+- Using youtube-transcript-api? The open-source youtube-transcript-cloud package (github.com/retracn/youtube-transcript-cloud) keeps its interface and runs on this Actor, so it works from AWS, GCP and other servers without RequestBlocked errors.
 - Videos, Shorts, channels and playlists (latest 15 videos).
 - Manual captions first, then auto-generated; best-effort translation.
 - Price: $1.50 per 1,000 transcripts; videos without captions are free.
