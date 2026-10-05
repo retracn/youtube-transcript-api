@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "youtube-transcript-scraper": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@apify/actors-mcp-server",
+        "--tools",
+        "automationnation/youtube-transcript-scraper"
+      ],
+      "env": {
+        "APIFY_TOKEN": "YOUR_APIFY_TOKEN"
+      }
+    }
+  }
+}
